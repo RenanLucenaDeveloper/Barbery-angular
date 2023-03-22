@@ -1,0 +1,55 @@
+#intro {
+  margin: 3.75rem 0 0 0;
+}
+
+#intro .molde {
+  margin: 0 auto;
+  max-width: 660px;
+  padding: 10px 0;
+}
+
+#intro .molde img {
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+#agendar-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border: 1px solid #FAEBD7;
+  border-radius: 5px;
+  
+  color: #FFFCF7;
+  background-color: #4C391F;
+
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: .1em;
+
+  position: relative;
+  transform: translateY(-2.5rem);
+  z-index: 100;
+  margin: 0 auto;
+  padding: 25px;
+}
+
+#agendar-button img {
+  margin-left: 30px;
+  width: 1rem;
+}
+
+#agendar-button:hover {
+  background-color: #332410;
+}
+
+#intro::after {
+  content: "";
+  display: block;
+  background: url(../../../assets/img/linhas.svg) no-repeat center;
+  background-size: cover;
+  width: 4.62rem;
+  height: 1.375rem;
+  margin: 1.2rem auto 0 auto;
+}

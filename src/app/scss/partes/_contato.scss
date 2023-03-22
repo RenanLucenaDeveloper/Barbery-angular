@@ -1,0 +1,42 @@
+
+#contato .container {
+  max-width: 662px;
+  gap: 30px;
+}
+
+#contato p {
+  font-size: 1rem;
+  color: #CFCDCA;
+}
+
+.email::after, .endereco::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 260px;
+  background-color: #E3D0B8;
+  margin: 15px 0;
+  border-radius: 1px;
+}
+
+.endereco .rua {
+  margin-bottom: 5px;
+}
+
+.telefone p {
+  letter-spacing: .1rem;
+}
+
+#contato::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 260px;
+  background-color: #E3D0B8;
+  margin: 6rem auto 1.875rem auto;
+  border-radius: 1px;
+}
+
+#contato img {
+  border-radius: 5px;
+}
